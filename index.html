@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Your Program Name</title>
+    <title>MintiTod</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
@@ -12,9 +12,9 @@
       <div class="container">
         <nav>
           <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#features">Функції</a></li>
+            <li><a href="#pricing">Ціна</a></li>
+            <li><a href="#contact">Контактні дані</a></li>
           </ul>
         </nav>
       </div>
@@ -22,44 +22,40 @@
     <section id="hero">
       <div class="container">
         <div class="hero-text">
-          <h1>Your Program Name</h1>
-          <p>Description of your program goes here. Keep it brief and to the point.</p>
-          <a href="#pricing" class="button">Get Started</a>
+          <h1>MintiTod</h1>
+          <p>Програма для знаходження найкоротшого шляху на мережі розроблена у межах дисципліни "Мережі і потоки" на базі кафедри МПУіК під керівництвом доцента кафедри математичних проблем укправління і кібернетики Чернівецького Національного Університету імені Юрія Федьковича Руснака Миколи Андрійовича</p>
         </div>
         <div class="hero-image">
-          <img src="img/hero-image.jpg" alt="Placeholder image">
+          <img src="img/Title.png" alt="Placeholder image">
         </div>
       </div>
     </section>
     <section id="features">
       <div class="container">
-        <h2>Features</h2>
+        <h2>Функції</h2>
         <ul>
           <li>
-            <div class="feature-image">
-              <img src="img/feature-1.jpg" alt="Placeholder image">
-            </div>
             <div class="feature-text">
-              <h3>Feature 1</h3>
-              <p>Description of feature 1 goes here.</p>
+              <h3>Отримання найкоротшого шляху</h3>
+              <p>Програма вміє швидко знаходити найкоротший до будь-якої вершини і його довжину.</p>
             </div>
           </li>
           <li>
-            <div class="feature-image">
-              <img src="img/feature-2.jpg" alt="Placeholder image">
-            </div>
             <div class="feature-text">
-              <h3>Feature 2</h3>
-              <p>Description of feature 2 goes here.</p>
+              <h3>Додавання і видалення дуги</h3>
+              <p>Функція з допомогою якої ви додаєте та/або видаляєте дуги на мережі.</p>
             </div>
           </li>
           <li>
-            <div class="feature-image">
-              <img src="img/feature-3.jpg" alt="Placeholder image">
-            </div>
             <div class="feature-text">
-              <h3>Feature 3</h3>
-              <p>Description of feature 3 goes here.</p>
+              <h3>Додавання і видалення вершини</h3>
+              <p>Функція з допомогою якої ви додаєте та/або видаляєте вершини на мережі.</p>
+            </div>
+          </li>
+          <li>
+            <div class="feature-text">
+              <h3>Функція збереження графу</h3>
+              <p>По завершенню роботу з мережою є здатність зберегти вашу роботу до якої ви зможете повернутись через певний проміжок часу.</p>
             </div>
           </li>
         </ul>
@@ -67,45 +63,18 @@
     </section>
     <section id="pricing">
       <div class="container">
-        <h2>Pricing</h2>
+        <h2>Ціна</h2>
         <ul>
           <li>
             <div class="pricing-box">
-              <h3>Basic</h3>
-              <p>Price: $X/month</p>
+              <h3>Базовий план</h3>
+              <p>Ціна: $0/місяць</p>
               <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li>Доступ до всіх функції</li>
+                <li>Розсилка оновлень програма на пошту</li>
+                <li>Спеціальні пропозиції</li>
               </ul>
-              <a href="#contact" class="button">Contact Us</a>
-            </div>
-          </li>
-          <li>
-            <div class="pricing-box">
-              <h3>Pro</h3>
-              <p>Price: $Y/month</p>
-              <ul>
-                <li>Feature 1</l1>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-                <li>Feature 4</li>
-              </ul>
-              <a href="#contact" class="button">Contact Us</a>
-            </div>
-          </li>
-          <li>
-            <div class="pricing-box">
-              <h3>Premium</h3>
-              <p>Price: $Z/month</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-                <li>Feature 4</li>
-                <li>Feature 5</li>
-              </ul>
-              <a href="#contact" class="button">Contact Us</a>
+              <a href="#contact" class="button">Контактні дані</a>
             </div>
           </li>
         </ul>
@@ -113,10 +82,10 @@
     </section>
     <section id="contact">
       <div class="container">
-        <h2>Contact Us</h2>
+        <h2>Напишіть нам</h2>
         <form>
           <div class="form-group">
-            <label for="name">Name:</label>
+            <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
           </div>
           <div class="form-group">
@@ -124,16 +93,16 @@
             <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
-            <label for="message">Message:</label>
+            <label for="message">Повідомлення:</label>
             <textarea id="message" name="message" required></textarea>
           </div>
-          <button type="submit" class="button">Send Message</button>
+          <button type="submit" class="button">Відправити</button>
         </form>
       </div>
     </section>
     <footer>
       <div class="container">
-        <p>&copy; Your Company Name. All rights reserved.</p>
+        <p>&copy; Чернівецький національний університет імені Юрія Федьковича. Всі права захищені.</p>
       </div>
     </footer>
   </body>
